@@ -56,7 +56,9 @@ std::vector<Int_t> buffTimeDetectNeg;
 /////    The outputs of all directories are not consolidated! Each directory is treated separately.	
 /////
 TString pathRoot = ".";
-const TString setup_file = "./analysis_setup_d2rNFullPairs_v17.txt";
+const TString ver = "v17";
+const TString setup_file = "./analysis_setup_d2rNFullPairs_" + ver + ".txt";
+//const TString setup_file = "./analysis_setup_d2rNFullPairs_v17.txt";
 
 const TString data_file_suff = ".dat";
 
