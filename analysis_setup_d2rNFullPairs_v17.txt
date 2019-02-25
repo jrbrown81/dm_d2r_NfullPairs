@@ -1,0 +1,23 @@
+printOutSetupFileParameters = 0
+
+firstPixel = 1
+lastPixel = 968
+nPixXY = 22
+nAMs = 2
+GM2do = 1
+
+pathSetup = /home/gate/work/setup
+fname_pixel_mapping_file = LISA_QET_pixel_map_config
+
+prntOutF = 20000
+
+selectAllPairsOnly = 1
+selectPairsWithCathodesOnly = 0
+
+makeSortedEcalNTuple = 1
+EcalibFileName = eCalib_ESmode_3points_60mV_2us_1400V
+
+includeNegativeSignalData = 1
+BL_NEG_FileName = BL_NEG_ESmode_60mV_2us_1400V
+
+saveSelfCheckASCIIoutputFile = 0
